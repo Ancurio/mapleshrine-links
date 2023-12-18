@@ -169,8 +169,12 @@ main {
   margin-bottom: auto;
 }
 
-#main_section_container_2, #main_section_container_3, #main_section_container_4, #main_section_container_5 {
- display: none;
+[id^='main_section_container_'] {
+  display: none;
+}
+
+#main_section_container_1 {
+  display: flex;
 }
 
 .main_a_item {
